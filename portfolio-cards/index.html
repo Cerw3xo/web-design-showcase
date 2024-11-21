@@ -1,0 +1,910 @@
+﻿<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matej Červenka</title>
+
+  <link rel="icon" href="assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <main>
+
+    <!-- ASIDE DESIGN -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-container">
+          <img src="./assets/images/avatar-my.png" alt="Matej Červenka" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="matej">Matej Červenka</h1>
+
+          <p class="title">Web Designer</p>
+        </div>
+
+        <button class="info-more-btn" data-sidebar-btn>
+          <span>Zobraziť Kontakt</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info-more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-container">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:matejcervenka@icloud.com" class="contact-link">matejcervenka@icloud.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-container">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">TELEFÓN</p>
+
+              <a href="tel:+420774030859" class="contact-link">+420 774 030 859</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-container">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">dátum narodenia</p>
+
+              <time datetime="1991-08-29">August 29, 1991</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-container">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">poloha</p>
+
+              <address>Zlín, Max 32</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/Cerw3xo/Cerw3xo" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Cerw3xo/Cerw3xo" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Cerw3xo/Cerw3xo" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!-- MAIN DESIGN  -->
+
+    <div class="main-content">
+
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>O mne</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Pokračovanie</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfólio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Kontakt</button>
+          </li>
+
+          <li>
+            <ion-icon class="dark-mode" id="dark-mode" name="flash"></ion-icon>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+      <article class="about  active" data-page="o mne">
+
+        <header>
+          <h2 class="h2 article-title">O mne</h2>
+        </header>
+
+        <section class="about-text">
+      
+          <p>
+           Ahoj, volám sa Matej a som budúci <em>Web Designer</em>. Momentálne pracujem ako mechanik , ale v poslednom čase som sa zameral na svet frontendu a web designu.  Do tejto oblasti som sa s chuťou ponoril a venujem sa jej intenzívne vo voľnom čase. 
+          </p>
+
+          <p>Neustále sa učím a sledujem trendy v tomto dynamickom obore. Som týmový hráč, otvorený spätnej väzbe a vždy ochotný zdokonaľovať svoje Skills. Rád sa naučím aj nové veci a verím, že moje nadšenie pre učenie a potreba skúseností by perfektne zapadli do <em>vášho týmu</em> .</p>
+
+          <p>Okrem toho sa pravidelne venujem kalistenike, posilovaniu, behu a Muay Thai. Verím, že šport ma naučil disciplíne, vytrvalosti a tímovej práci. Tieto vlastnosti sú pre mňa dôležité aj v pracovnom živote.</p>
+        </section>
+
+
+    
+        <section class="base">
+
+          <h3 class="h3 base-title">Moje zameranie</h3>
+
+          <ul class="base-list">
+
+            <li class="base-item">
+
+              <div class="base-icon-container">
+                <ion-icon class="about-icon" name="desktop-outline"></ion-icon>
+              </div>
+
+              <div class="base-content-box">
+                <h4 class="h4 skills-item-title">Web design</h4>
+
+                <p class="base-item-text">
+                  Získavam komplexné skúsenosti v celom procese tvorby webu, od kódovania, design až po spustenie. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="base-item">
+
+              <div class="base-icon-container">
+                <ion-icon class="about-icon" name="logo-web-component"></ion-icon>              </div>
+
+              <div class="base-content-box">
+                <h4 class="h4 skills-item-title">Web development</h4>
+
+                <p class="base-item-text">
+                  Rozvíjam svoje programátorské skúsenosti v oblasti tvorby webových stránok a aplikácií.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="base-item">
+
+              <div class="base-icon-container">
+                <ion-icon class="about-icon" name="phone-portrait-outline"></ion-icon>              </div>
+
+              <div class="base-content-box">
+                <h4 class="h4 base-item-title">Responzívny design</h4>
+
+                <p class="base-item-text">
+                  Tvorím webové stránky a aplikácie, ktoré zaisťujú optimálne zobrazenie na všetkých zariadeniach.
+                </p>
+              </div>
+            </li>
+
+            <li class="base-item">
+
+              <div class="base-icon-container">
+                <ion-icon class="about-icon" name="logo-angular"></ion-icon>
+              </div>
+
+              <div class="base-content-box">
+                <h4 class="h4 base-item-title">Frontendové Frameworky</h4>
+
+                <p class="base-item-text">
+                  Pracujem s Angularom pod vedením mentora, a získavam skúsenosti v programovaní v Typescripte.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!-- FEEDBACK  -->
+
+        <section class="feedback">
+
+          <h3 class="h3 feedback-title">Referencie</h3>
+
+          <ul class="feedback-list has-scrollbar">
+
+            <li class="feedback-item">
+              <div class="content-card" data-feedback-item>
+
+                <figure class="feedback-avatar-container">
+                  <img src="./assets/images/avatar-3.png" alt="standa mentor" width="60" data-feedback-avatar>
+                </figure>
+
+                <h4 class="h4 feedback-item-title" data-feedback-title>Standa Mentor</h4>
+
+                <div class="feedback-text" data-feedback-text>
+                  <p>
+                    Matej vytvoril prehľadný a funkčný web. Okrem dizajnu preukázal aj pochopenie logických konceptov a dokázal ich aplikovať v praxi. Vrelo ho odporúčam ako designera a Junior Frontenda s veľkým potenciálom. Je učenlivý a má záujem o rozvoj svojich zručností.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="feedback-item">
+              <div class="content-card" data-feedback-item>
+
+                <figure class="feedback-avatar-container">
+                  <img src="./assets/images/avatar-2.png" alt="michaeala avatar" width="60" data-feedback-avatar>
+                </figure>
+
+                <h4 class="h4 feedback-item-title" data-feedback-title>Miška avatar</h4>
+
+                <div class="feedback-text" data-feedback-text>
+                  <p>
+                    Super web! Páči sa mi prehľadnosť a ľahké ovládanie. Vidieť, že si si dal záležať. Farby a písmo sú skvelé. Všetko je pekné a moderné. Máš na to talent! Pokračuj v skvelej práci!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="feedback-item">
+              <div class="content-card" data-feedback-item>
+
+                <figure class="feedback-avatar-container">
+                  <img src="./assets/images/avatar-1.png" alt="" width="60" data-feedback-avatar>
+                </figure>
+
+                <h4 class="h4 feedback-item-title" data-feedback-title>Marek avatar</h4>
+
+                <div class="feedback-text" data-feedback-text>
+                  <p>
+                    Web je perfektný! Design je bezchybný, kód čistý a všetko funguje skvele. Páči sa mi aj optimalizácia pre mobily. Si perfekcionista s dôrazom na detail. Rád by som ťa mal v tíme! Mohol by si ma naučiť veľa o webdesigne.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="feedback-item">
+              <div class="content-card" data-feedback-item>
+
+                <figure class="feedback-avatar-container">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-feedback-avatar>
+                </figure>
+
+                <h4 class="h4 feedback-item-title" data-feedback-title>Tomáš avatar</h4>
+
+                <div class="feedback-text" data-feedback-text>
+                  <p>
+                    Úžasný web! Si šikovný dizajnér. Dizajn je moderný a ľahko sa používa. Text sa dobre číta a pochopí. Obrázky robia web pútavejším. Vidieť, že si si dal záležať. Môžeš byť na seba hrdý! Určite budeš prínosom pre každú firmu.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+       <!-- FEEDBACK MODAL  -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+
+          <section class="feedback-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-container">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <ion-icon class="modal-item" name="code-slash"></ion-icon>
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Avatar</h4>
+
+              <time datetime="2021-06-14">29 August, 2023</time>
+
+              <div data-modal-text>
+                <p>
+                  ...
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+      <article class="resume" data-page="pokračovanie">
+
+        <header>
+          <h2 class="h2 article-title">Pokračovanie</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-container">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Od teórie k praxi</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web rebel</h4>
+
+              <span>Kurz <br>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Ako prvé som spravil online kurz webdesignu. Kurz sa skladá z 3 modulov. HTML a CSS, 
+              Responzivní webdesign, 
+              JavaScript/jQuery. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Rob hry v JavaScripte</h4>
+
+              <span>Kurz <br>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Pre lepšie pochopenie JavaScriptu v praxi som absolvoval kurz, v ktorom som si vytvoril dve hry, klasického hada a slovnú hru Slovka.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">JavaScript a ES6</h4>
+
+              <span>Kurz <br>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Túžil som po hlbšom pochopení JavaScriptu a posunúť sa na novú úroveň. Kurz mi v tom pomohol. Uvedomil som si, že cesta k cieľu je dlhá, ale som odhodlaný ju prekonať krok za krokom.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Praktické precvičovanie</h4>
+
+              <span>Prax <br>2024 — súčastnosť</span>
+
+              <p class="timeline-text">
+                Po absolvovaní kurzov som nadobudnuté teoretické znalosti zúročil v praxi pri tvorbe webových stránok s HTML, CSS a JavaScript.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vývoj aplikácie v Angulari</h4>
+             
+              <span>Prax <br>2024 — súčastnosť</span>
+
+              <p class="timeline-text">
+                Momentálne pracujem na vývoji komplexnej NFL informačnej aplikácii.
+                Je postavená na Angulari a využíva dostupné API na načítanie a zobrazenie údajov.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-container">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Moje skúsenosti mimo IT</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mechanik</h4>
+      
+
+              <span>Greiner Packaging <br>2018 — Súčastnosť</span>
+             
+
+              <p class="timeline-text">
+                Prestavovanie a diagnostika modernej automatizácie s vysokou rýchlosťov a presnosťou, ktorú vyvinula spoločnosť Hörauf.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Logistika</h4>
+          
+              <span>Greiner Packaging <br>2015 — 2018</span>
+
+              <p class="timeline-text">
+                Efektívne riadenie skladových zásob a logistických procesov. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Servisný technik</h4>
+
+              <span>Elite Moto <br>2014 — 2015</span>
+
+              <p class="timeline-text">
+                Zaisťoval som komplexnú diagnostiku, opravu a údržbu záhradnej, lesnej techniky a motocyklov.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ďalšie..</h4>
+
+              <span>V priebehu života</span>
+
+              <p class="timeline-text">
+                Získal som rôzne pracovné skúsenosti ako napríklad operátor vo výrobe, barman, sezónne práce v zahraničí, alebo ako vyhadzovač.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">soft skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Spolahlivosť</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Týmová práca</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Flexibilita</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Riešenie problémov</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Úprimnosť</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 93%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Disciplína</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- PROJECT DESIGN  -->
+
+      <article class="portfolio" data-page="portfólio">
+
+        <header>
+          <h2 class="h2 article-title">Portfólio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Všetky</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Aplikácie</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Hry</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Všetky</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Aplikácie</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Hry</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://matejcervenka.cz/port-2">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-container">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="portfolio-1" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Text Scroll - <span> Responsive</span></h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://matejcervenka.cz/crave">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-container">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="crave game design" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CRAVE Game Kurz - <span> Responsive</span></h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://matejcervenka.cz/port-3">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-container">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="portfolio-2" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfólio - <span> Responsive</span></h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://matejcervenka.cz/reminder">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-container">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="reminder design" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pripomienky</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://matejcervenka.cz/LoR/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-container">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="reg log design" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Login or Register</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://matejcervenka.cz/port-1">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-container">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="dynamic island design" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dynamic Island - <span> Responsive</span></h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="hry">
+              <a href="https://matejcervenka.cz/snake">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-container">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="snake game" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Snake</h3>
+
+                <p class="project-category">Hra</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="hry">
+              <a href="https://matejcervenka.cz/slovka">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-container">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.png" alt="slovka game" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Slovka - <span> Responsive</span></h3>
+
+                <p class="project-category">Hra</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="aplikácie">
+              <a href="https://matejcervenka.cz/NFL">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-container">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="nfl app" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NFL - Angular</h3>
+
+                <p class="project-category">Aplikácia</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- CONTACT DESIGN  -->
+
+      <article class="contact" data-page="kontakt">
+
+        <header>
+          <h2 class="h2 article-title">Kontakt</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d17.640556!3d49.219503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sJ.+A.+Bati+5648,+760+01+Zlín,+Czech+Republic!2sZlín!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Kontaktný Formulár</h3>
+
+          <form action="/send-mail.php" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Vaše Meno" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Emailová adresa" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Vaša správa" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Poslať Správu</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+ <!-- JS  -->
+  <script src="script.js"></script>
+
+ <!-- IONICON  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
